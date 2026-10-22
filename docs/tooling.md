@@ -45,3 +45,14 @@ python3 -m unittest discover -s tests -v
 ```
 
 Node.js와 pptxgenjs가 필요합니다. 실제 생성한 PPTX에서 네이티브 표, 세로선 제거, 지정한 열 너비와 잘못된 너비의 거부를 확인합니다.
+
+## 스타일 예제 재생성과 레이아웃 검사
+
+```sh
+python scripts/build_style_examples.py
+node scripts/build_deck.cjs examples/styles/editorial/scene.json output.pptx
+python scripts/check_scene_layout.py examples/styles/editorial/scene.json --font-regular regular.ttf --font-bold bold.ttf
+python -m unittest discover -s tests -v
+```
+
+첫 명령은 저장소의 가상 스타일 예제 JSON을 재생성하는 유지보수용입니다. 사용자의 발표 원본을 덮어쓰는 도구가 아닙니다. 장면에서 PPTX·보조 PDF를 만드는 명령은 앞의 절차를 따릅니다. 검사기에 실제 글꼴 파일을 주지 않으면 글자 넘침 검증은 미검증으로 남습니다. 대비와 겹침 경고는 실제 화면에서 판단하며, 오류가 없다는 사실만으로 미적 품질이나 접근성 준수를 보증하지 않습니다.

@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-22",
+  "actualPptxAppRenderVerified": false,
+  "artifacts": [
+    {
+      "path": "examples/styles/editorial",
+      "slides": 3,
+      "pdfPages": 3,
+      "nativeTextRuns": 54,
+      "pptxSha256": "0c0c4d8ae18a4b1aabf0f44fabe941bb9c65b3ffcc0a3f9f3457d0731a084c8c",
+      "pdfSha256": "4b9a67a4522c0765fe9d2347ab48717a26e447d1ce0d13028d721759ea73b1a1",
+      "auditErrors": [],
+      "auditWarnings": [
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Font Pretendard is referenced, not embedded; target-machine availability and real PPTX rendering remain unverified"
+      ]
+    },
+    {
+      "path": "examples/styles/executive",
+      "slides": 3,
+      "pdfPages": 3,
+      "nativeTextRuns": 52,
+      "pptxSha256": "20107fdc3aabff0c57560f941d047e34857a1895d5b7405c4d4ceb7ed1149ffa",
+      "pdfSha256": "f0d644a8e1b7c7f9cafef3212a79bed8d79673d4a821a8a21444d0ec15b9e424",
+      "auditErrors": [],
+      "auditWarnings": [
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Font Pretendard is referenced, not embedded; target-machine availability and real PPTX rendering remain unverified"
+      ]
+    },
+    {
+      "path": "examples/styles/studio",
+      "slides": 3,
+      "pdfPages": 3,
+      "nativeTextRuns": 41,
+      "pptxSha256": "37f030f96b978a04cbab4a66938897a61987a8baf76ba8141e6b370e134cb60f",
+      "pdfSha256": "e0a325de15ed324df936ebc02edcbc3a6a5a56e8f2ed4f83b2d9c913fcd22dd1",
+      "auditErrors": [],
+      "auditWarnings": [
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Font Pretendard is referenced, not embedded; target-machine availability and real PPTX rendering remain unverified"
+      ]
+    },
+    {
+      "path": "examples/styles/technical",
+      "slides": 3,
+      "pdfPages": 3,
+      "nativeTextRuns": 72,
+      "pptxSha256": "53b0b185652591fb5ab5548d32e586596e85fcef1c968b1dde23e2ce931f0d9f",
+      "pdfSha256": "3c34db897b0f7647038b162539ec986ed5da0405ecc14a0ed3fb620d4e652775",
+      "auditErrors": [],
+      "auditWarnings": [
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Font Pretendard is referenced, not embedded; target-machine availability and real PPTX rendering remain unverified"
+      ]
+    },
+    {
+      "path": "examples/styles/warm",
+      "slides": 3,
+      "pdfPages": 3,
+      "nativeTextRuns": 43,
+      "pptxSha256": "3404d6f8800ceac4a5f7fd7c4487fc9468955887c4ec72983c6eb1e31dba4d17",
+      "pdfSha256": "27ba40f90f20ec0675d94f550f2afff4a13555365f68cfea8ba76d8595fbaf6e",
+      "auditErrors": [],
+      "auditWarnings": [
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Font Pretendard is referenced, not embedded; target-machine availability and real PPTX rendering remain unverified"
+      ]
+    },
+    {
+      "path": "examples/short-prompt",
+      "slides": 3,
+      "pdfPages": 3,
+      "nativeTextRuns": 43,
+      "pptxSha256": "7134e5d830a1bf5063d808af390d80220e44409af60a59c88fea079b95d04fbe",
+      "pdfSha256": "20108c40d452de9cc082eb1104fd69d5ad3988f6b07a7ed93e276373dbbd2aa1",
+      "auditErrors": [],
+      "auditWarnings": [
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 1 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 2 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Slide 3 text: font below 18 px",
+        "Font Pretendard is referenced, not embedded; target-machine availability and real PPTX rendering remain unverified"
+      ]
+    }
+  ]
+}

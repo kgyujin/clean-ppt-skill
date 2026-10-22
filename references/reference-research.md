@@ -24,3 +24,22 @@
 - [사업계획서 목록](https://www.miricanvas.com/ko/template/presentation/사업계획서): 왼쪽의 제목·설명과 오른쪽 이미지 영역이 분리되어 있습니다. 표지의 60:40 배치에 참고했습니다. 사진, 로고, 그라데이션은 가져오지 않았습니다.
 
 본문 12종은 직접 작성한 텍스트와 편집 가능한 도형으로 구성했습니다. 미리캔버스 템플릿 파일이나 이미지 자산을 저장소에 배포하지 않습니다.
+
+## 스타일 확장: 공개 시안 12개 검토
+
+2026-10-22 [공식 템플릿 목록](https://www.miricanvas.com/ko/templates)의 공개 대표 이미지 12개를 내려받아 직접 시각 검토했습니다. 모두 대표 썸네일이며 내부 본문 전체를 열람했다는 뜻은 아닙니다. 원본 이미지는 임시 검토에만 사용했고 배포물에는 포함하지 않았습니다.
+
+| 시안 | 관찰 | 반영 또는 제외 |
+| --- | --- | --- |
+| [white-plan](https://file.miricanvas.com/template_json_thumb/2026/10/16/13/40/kww5s8uebtyyi9gx/json_thumb.webp) | 큰 두 줄 제목과 얇은 구분선 | studio의 큰 타이포와 선 중심 편집 |
+| [blue-culture](https://file.miricanvas.com/template_json_thumb/2026/10/08/01/30/ko2yywyyfg6jab3k/json_thumb.webp) | 중앙 밝은 패널과 외곽 대비 | executive의 요약 영역 분리 |
+| [navy-report](https://file.miricanvas.com/template_json_thumb/2026/10/16/17/00/k74fusfcgvx58tnh/json_thumb.webp) | 넓은 보고서 프레임과 제목 집중 | 공통 정렬축과 안정적인 제목 영역 |
+| [red-plan](https://file.miricanvas.com/template_json_thumb/2026/10/16/13/50/kqntxvyij4j8yz4l/json_thumb.webp) | 좌측 제목과 우측 시각 중심 | editorial의 비대칭 정보 분리 |
+| [lime-plan](https://file.miricanvas.com/template_json_thumb/2026/10/16/11/40/k10xshokkuchogsa/json_thumb.webp) | 중앙 제목과 넓은 여백 | 중앙 집중 원리만 검토; 그라데이션 제외 |
+| [green-environment](https://file.miricanvas.com/template_json_thumb/2026/10/16/18/10/km9lmk0kxebtd2qq/json_thumb.webp) | 상단 제목과 하단 사진의 두 영역 | 정보 층위 분리만 검토; 사진 미사용 |
+| [sales-compare](https://file.miricanvas.com/template_json_thumb/2026/05/22/09/40/kip8n7bna3a5afbo/json_thumb.webp) | 좌측 제목과 우측 보조 시각 영역 | 비교 본문의 좌측 요약과 우측 비교 |
+| [orange-compare](https://file.miricanvas.com/template_json_thumb/2026/03/27/09/30/kwpid0ldemacvx8v/json_thumb.webp) | 차트 크기로 핵심과 보조 구분 | 실제 수치가 없으므로 장식 차트 미사용 |
+| [beige-brand](https://file.miricanvas.com/template_json_thumb/2026/10/13/15/40/kyi5xizjfzfvqkm9/json_thumb.webp) | 왼쪽 좁은 레일과 넓은 본문 | technical 탐색 레일 |
+| [note-portfolio](https://file.miricanvas.com/template_json_thumb/2026/10/13/16/00/kmiqhe2mqxdny9z4/json_thumb.webp) | 큰 중심 제목과 작은 메타 정보 | 표지 제목과 보조 안내 크기 차이 |
+| [blue-ir](https://file.miricanvas.com/template_json_thumb/2026/10/08/01/10/kzsabiq2njcpmton/json_thumb.webp) | 큰 타이포와 제한된 색 강조 | 제목 한 부분과 핵심 영역만 강조 |
+| [gray-proposal](https://file.miricanvas.com/template_json_thumb/2026/10/13/14/50/kuwsk5g22zxhz5nw/json_thumb.webp) | 큰 질문과 우측 시각 요소 | 타이포 중심 표지; 일러스트 미사용 |
