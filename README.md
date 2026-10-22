@@ -32,13 +32,19 @@
 
 아래 파일은 이 스킬을 적용해 만든 예시입니다. 가상 연습 자료를 사용했으며 실제 운영 실적이 아닙니다. 이미지를 누르면 크게 볼 수 있습니다.
 
+### V9 비교·결과 템플릿
+
+실제 V9의 비교 페이지와 결과 페이지에서 좌표, 글자 크기와 행 간격을 옮겼습니다. 내용은 가상 업무 예제로 바꿨습니다. 세로 격자 대신 가는 가로선, 핵심 문구와 보조 설명, 방향을 보여주는 화살표를 사용합니다.
+
+| 기존 방식과 개선 방향 | 결과와 확인 범위 |
+| --- | --- |
+| ![V9 비교 영역](examples/business-blue/slides/slide-02.png) | ![V9 결과 영역](examples/business-blue/slides/slide-04.png) |
+
+[비교 템플릿 JSON](templates/v9-comparison.json) · [결과 템플릿 JSON](templates/v9-results.json)
+
 ### 기본형: 업무 개선 발표
 
 차분한 파랑을 사용한 6장 구성입니다. 개선 전후, 업무 흐름, 수치 비교, 적용 범위와 다음 단계를 보여줍니다.
-
-| 개선 전후 | 업무 흐름 |
-| --- | --- |
-| ![개선 전후 비교](examples/business-blue/slides/slide-02.png) | ![네 단계 업무 흐름](examples/business-blue/slides/slide-03.png) |
 
 [PPTX 내려받기](examples/business-blue/deck.pptx) · [PDF 보기](examples/business-blue/deck.pdf) · [입력 자료](examples/business-blue/brief.md) · [수정 가능한 장면 JSON](examples/business-blue/scene.json) · [발표 메모](examples/business-blue/notes.md)
 

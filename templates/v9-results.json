@@ -1,0 +1,266 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "slides": [
+    {
+      "title": "연습 결과와 확인 범위",
+      "frame": false,
+      "notes": "가상 연습 자료입니다. 표시된 조건과 수치를 함께 설명합니다.",
+      "elements": [
+        {
+          "type": "text",
+          "x": 56,
+          "y": 30,
+          "w": 650,
+          "h": 18,
+          "text": "업무 개선 / 연습 비교",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 13
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 1,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 800,
+          "h": 16,
+          "text": "반품 검수 기록 자동화",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 12
+        },
+        {
+          "type": "text",
+          "x": 1130,
+          "y": 680,
+          "w": 94,
+          "h": 20,
+          "text": "01 / 01",
+          "color": "526174",
+          "bold": false,
+          "align": "right",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 62,
+          "text": "연습 결과와 확인 범위",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 44
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 34,
+          "text": "기존 20건과 개선 20건을 같은 기준으로 비교한 가상 자료입니다.",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 219,
+          "w": 1168,
+          "h": 121,
+          "fill": "EEF3F9",
+          "stroke": "EEF3F9",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 78,
+          "y": 241,
+          "w": 128,
+          "h": 68,
+          "text": "9분",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 47
+        },
+        {
+          "type": "text",
+          "x": 225,
+          "y": 243,
+          "w": 345,
+          "h": 35,
+          "text": "건당 평균 검수 시간",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 23
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 239,
+          "w": 568,
+          "h": 37,
+          "text": "기존 16분 → 개선 9분",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 286,
+          "w": 568,
+          "h": 40,
+          "text": "검수와 기록을 한 기기에서 진행",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "text",
+          "x": 78,
+          "y": 378,
+          "w": 128,
+          "h": 68,
+          "text": "3건",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 47
+        },
+        {
+          "type": "text",
+          "x": 225,
+          "y": 380,
+          "w": 345,
+          "h": 35,
+          "text": "입력 누락 건수",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 23
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 376,
+          "w": 568,
+          "h": 37,
+          "text": "기존 7건 → 개선 3건",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 423,
+          "w": 568,
+          "h": 40,
+          "text": "표본이 작아 일반 성능으로 확대하지 않음",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 493,
+          "w": 1168,
+          "h": 121,
+          "fill": "EEF3F9",
+          "stroke": "EEF3F9",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 78,
+          "y": 515,
+          "w": 128,
+          "h": 68,
+          "text": "담당자",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 33
+        },
+        {
+          "type": "text",
+          "x": 225,
+          "y": 517,
+          "w": 345,
+          "h": 35,
+          "text": "최종 검수 확정",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 23
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 513,
+          "w": 568,
+          "h": 37,
+          "text": "자동 환불은 수행하지 않음",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 560,
+          "w": 568,
+          "h": 40,
+          "text": "판단과 최종 확인은 담당자의 업무",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "text",
+          "x": 68,
+          "y": 640,
+          "w": 1120,
+          "h": 22,
+          "text": "확인 범위: 가상 연습 자료, 실제 고객 및 운영 실적 아님",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 16
+        }
+      ]
+    }
+  ]
+}

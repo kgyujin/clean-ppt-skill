@@ -127,70 +127,397 @@
       ]
     },
     {
-      "title": "개선 전후",
-      "section": "01 · 기록 방식",
-      "notes": "약 40초. 같은 세 기준으로 개선 전후를 비교합니다. 기록 위치가 태블릿으로 모이고 마지막 재입력 단계가 줄어듭니다. 현장 담당자가 최종 검수를 확정한다는 책임은 유지합니다.",
+      "title": "기록 방식과 개선 방향",
+      "frame": false,
+      "notes": "가상 연습 자료입니다. 표시된 조건과 수치를 함께 설명합니다.",
       "elements": [
         {
           "type": "text",
-          "text": "검수 후 옮겨 적던 기록을 검수 단계에서 저장",
           "x": 56,
-          "y": 159,
-          "w": 1168,
-          "h": 44,
-          "fontSize": 27,
+          "y": 30,
+          "w": 650,
+          "h": 18,
+          "text": "업무 개선 / 비교",
+          "color": "526174",
           "bold": false,
-          "color": "526174"
+          "align": "left",
+          "fontSize": 13
         },
         {
-          "type": "table",
-          "rows": [
+          "type": "line",
+          "points": [
             [
-              "비교 기준",
-              "기존",
-              "개선"
+              56,
+              668
             ],
             [
-              "기록 도구",
-              "종이 체크리스트",
-              "태블릿"
-            ],
-            [
-              "업무 순서",
-              "검수 후 엑셀 재입력",
-              "현장에서 기록 저장"
-            ],
-            [
-              "기록 구성",
-              "체크리스트 기록",
-              "상태 체크 + 사진 첨부"
+              1224,
+              668
             ]
           ],
-          "x": 56,
-          "y": 245,
-          "w": 1168,
-          "h": 288,
-          "fontSize": 26
-        },
-        {
-          "type": "rect",
-          "x": 56,
-          "y": 570,
-          "w": 1168,
-          "h": 64,
-          "fill": "EEF3F9",
-          "stroke": "EEF3F9"
+          "stroke": "CDD6E1",
+          "strokeWidth": 1,
+          "endArrow": false
         },
         {
           "type": "text",
-          "text": "최종 검수 확정은 담당자의 업무입니다.",
-          "x": 80,
-          "y": 583,
-          "w": 1100,
-          "h": 40,
-          "fontSize": 26,
+          "x": 56,
+          "y": 682,
+          "w": 800,
+          "h": 16,
+          "text": "반품 검수 기록 자동화",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 12
+        },
+        {
+          "type": "text",
+          "x": 1130,
+          "y": 680,
+          "w": 94,
+          "h": 20,
+          "text": "02 / 06",
+          "color": "526174",
+          "bold": false,
+          "align": "right",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 62,
+          "text": "기록 방식과 개선 방향",
+          "color": "192A40",
           "bold": true,
-          "color": "2459A6"
+          "align": "left",
+          "fontSize": 44
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 34,
+          "text": "검수 기록을 옮겨 적는 과정을 현장 입력으로 바꿉니다.",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 216,
+          "w": 150,
+          "h": 24,
+          "text": "비교 항목",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 15
+        },
+        {
+          "type": "text",
+          "x": 251,
+          "y": 216,
+          "w": 150,
+          "h": 24,
+          "text": "기존 방식",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 15
+        },
+        {
+          "type": "text",
+          "x": 768,
+          "y": 216,
+          "w": 150,
+          "h": 24,
+          "text": "개선 후",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 15
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              246
+            ],
+            [
+              1224,
+              246
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 1.5,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 265,
+          "w": 170,
+          "h": 44,
+          "text": "기록 도구",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 251,
+          "y": 259,
+          "w": 430,
+          "h": 36,
+          "text": "종이 체크리스트",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 251,
+          "y": 303,
+          "w": 430,
+          "h": 37,
+          "text": "검수 내용을 종이에 기입",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              701,
+              287
+            ],
+            [
+              739,
+              287
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": true
+        },
+        {
+          "type": "text",
+          "x": 768,
+          "y": 259,
+          "w": 445,
+          "h": 36,
+          "text": "태블릿에서 직접 기록",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 768,
+          "y": 303,
+          "w": 445,
+          "h": 37,
+          "text": "상품 코드를 조회해 입력 시작",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              369
+            ],
+            [
+              1224,
+              369
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 1.5,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 388,
+          "w": 170,
+          "h": 44,
+          "text": "업무 순서",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 251,
+          "y": 382,
+          "w": 430,
+          "h": 36,
+          "text": "검수 후 엑셀에 재입력",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 251,
+          "y": 426,
+          "w": 430,
+          "h": 37,
+          "text": "검수와 기록 시점이 분리",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              701,
+              410
+            ],
+            [
+              739,
+              410
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": true
+        },
+        {
+          "type": "text",
+          "x": 768,
+          "y": 382,
+          "w": 445,
+          "h": 36,
+          "text": "검수 단계에서 바로 저장",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 768,
+          "y": 426,
+          "w": 445,
+          "h": 37,
+          "text": "현장에서 상태와 사진을 함께 입력",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              492
+            ],
+            [
+              1224,
+              492
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 1.5,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 511,
+          "w": 170,
+          "h": 44,
+          "text": "기록 구성",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 251,
+          "y": 505,
+          "w": 430,
+          "h": 36,
+          "text": "체크리스트 내용 입력",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 251,
+          "y": 549,
+          "w": 430,
+          "h": 37,
+          "text": "종이에서 엑셀로 옮겨 작성",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              701,
+              533
+            ],
+            [
+              739,
+              533
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": true
+        },
+        {
+          "type": "text",
+          "x": 768,
+          "y": 505,
+          "w": 445,
+          "h": 36,
+          "text": "상태와 사진을 함께 저장",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 768,
+          "y": 549,
+          "w": 445,
+          "h": 37,
+          "text": "담당자가 최종 검수를 확정",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
         }
       ]
     },
@@ -423,76 +750,261 @@
       ]
     },
     {
-      "title": "연습 수치 비교",
-      "section": "03 · 각 20건 비교",
-      "notes": "약 50초. 기존과 개선 각각 20건의 연습 비교입니다. 건당 평균 시간은 16분에서 9분으로, 입력 누락은 7건에서 3건으로 관찰되었습니다. 개선 방향은 보이지만 표본이 작으므로 일반적인 성능으로 확대할 수 없습니다.",
+      "title": "연습 결과와 확인 범위",
+      "frame": false,
+      "notes": "가상 연습 자료입니다. 표시된 조건과 수치를 함께 설명합니다.",
       "elements": [
         {
           "type": "text",
-          "text": "건당 평균 시간과 입력 누락을 같은 기준으로 비교",
           "x": 56,
-          "y": 159,
-          "w": 1168,
-          "h": 44,
-          "fontSize": 27,
+          "y": 30,
+          "w": 650,
+          "h": 18,
+          "text": "업무 개선 / 연습 비교",
+          "color": "526174",
           "bold": false,
-          "color": "526174"
+          "align": "left",
+          "fontSize": 13
         },
         {
-          "type": "table",
-          "rows": [
+          "type": "line",
+          "points": [
             [
-              "지표",
-              "기존 20건",
-              "개선 20건"
+              56,
+              668
             ],
             [
-              "건당 평균 시간",
-              "16분",
-              "9분"
-            ],
-            [
-              "입력 누락",
-              "7건",
-              "3건"
+              1224,
+              668
             ]
           ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 1,
+          "endArrow": false
+        },
+        {
+          "type": "text",
           "x": 56,
-          "y": 245,
+          "y": 682,
+          "w": 800,
+          "h": 16,
+          "text": "반품 검수 기록 자동화",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 12
+        },
+        {
+          "type": "text",
+          "x": 1130,
+          "y": 680,
+          "w": 94,
+          "h": 20,
+          "text": "04 / 06",
+          "color": "526174",
+          "bold": false,
+          "align": "right",
+          "fontSize": 14
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
           "w": 1168,
-          "h": 252,
-          "fontSize": 30
+          "h": 62,
+          "text": "연습 결과와 확인 범위",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 44
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 34,
+          "text": "기존 20건과 개선 20건을 같은 기준으로 비교한 가상 자료입니다.",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
         },
         {
           "type": "rect",
           "x": 56,
-          "y": 541,
+          "y": 219,
           "w": 1168,
-          "h": 94,
+          "h": 121,
           "fill": "EEF3F9",
-          "stroke": "EEF3F9"
+          "stroke": "EEF3F9",
+          "strokeWidth": 0
         },
         {
           "type": "text",
-          "text": "가상 연습 자료 · 소규모 표본",
-          "x": 80,
-          "y": 552,
-          "w": 1100,
-          "h": 35,
-          "fontSize": 25,
+          "x": 78,
+          "y": 241,
+          "w": 128,
+          "h": 68,
+          "text": "9분",
+          "color": "2459A6",
           "bold": true,
-          "color": "2459A6"
+          "align": "left",
+          "fontSize": 47
         },
         {
           "type": "text",
-          "text": "관찰된 차이를 일반 성능으로 확대하지 않습니다.",
-          "x": 80,
-          "y": 589,
-          "w": 1100,
-          "h": 36,
-          "fontSize": 24,
+          "x": 225,
+          "y": 243,
+          "w": 345,
+          "h": 35,
+          "text": "건당 평균 검수 시간",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 23
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 239,
+          "w": 568,
+          "h": 37,
+          "text": "기존 16분 → 개선 9분",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 286,
+          "w": 568,
+          "h": 40,
+          "text": "검수와 기록을 한 기기에서 진행",
+          "color": "526174",
           "bold": false,
-          "color": "192A40"
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "text",
+          "x": 78,
+          "y": 378,
+          "w": 128,
+          "h": 68,
+          "text": "3건",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 47
+        },
+        {
+          "type": "text",
+          "x": 225,
+          "y": 380,
+          "w": 345,
+          "h": 35,
+          "text": "입력 누락 건수",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 23
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 376,
+          "w": 568,
+          "h": 37,
+          "text": "기존 7건 → 개선 3건",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 423,
+          "w": 568,
+          "h": 40,
+          "text": "표본이 작아 일반 성능으로 확대하지 않음",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 493,
+          "w": 1168,
+          "h": 121,
+          "fill": "EEF3F9",
+          "stroke": "EEF3F9",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 78,
+          "y": 515,
+          "w": 128,
+          "h": 68,
+          "text": "담당자",
+          "color": "2459A6",
+          "bold": true,
+          "align": "left",
+          "fontSize": 33
+        },
+        {
+          "type": "text",
+          "x": 225,
+          "y": 517,
+          "w": 345,
+          "h": 35,
+          "text": "최종 검수 확정",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 23
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 513,
+          "w": 568,
+          "h": 37,
+          "text": "자동 환불은 수행하지 않음",
+          "color": "192A40",
+          "bold": true,
+          "align": "left",
+          "fontSize": 25
+        },
+        {
+          "type": "text",
+          "x": 628,
+          "y": 560,
+          "w": 568,
+          "h": 40,
+          "text": "판단과 최종 확인은 담당자의 업무",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 21
+        },
+        {
+          "type": "text",
+          "x": 68,
+          "y": 640,
+          "w": 1120,
+          "h": 22,
+          "text": "확인 범위: 가상 연습 자료, 실제 고객 및 운영 실적 아님",
+          "color": "526174",
+          "bold": false,
+          "align": "left",
+          "fontSize": 16
         }
       ]
     },

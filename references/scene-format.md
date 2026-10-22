@@ -12,7 +12,7 @@ Elements:
 - `rect`, `ellipse`: `x,y,w,h,fill,stroke,strokeWidth`.
 - `line`: `points:[[x,y],...]`, optional `startArrow,endArrow,stroke,strokeWidth`. Every segment must be horizontal or vertical, including reverse directions. Alternatively use `x,y,w,h` for one orthogonal segment.
 - `image`: `x,y,w,h,path`. Resource path is relative to scene JSON. Contain placement preserves aspect ratio and centers the image. Use PNG/JPEG for companion compatibility.
-- `table`: `x,y,w,h,fontSize,rows`. Rows are a rectangular array of plain strings. This intentionally supports basic equal-width cells only; no spans or rich cells.
+- `table`: `x,y,w,h,fontSize,rows`. Rows are a rectangular array of plain strings. Default style has horizontal rules only, blue bold headers, bold row labels and vertically centered text. Optional `colWidths` is an array of positive pixel widths summing to `w`; `highlightColumn` is a zero-based accent column; `banded` enables alternate pale rows with optional `bandColor`. No spans or rich cells. For hierarchical V9 comparisons use `templates/v9-comparison.json` editable text/shapes instead of a dense cell grid.
 - `barChart`: `x,y,w,h,series:[{name,labels:[...],values:[...]}]`, optional `colors:[hex,...]`. Native PowerPoint bar chart; preview supports nonnegative values only and renders an approximate column chart. No axis or legend parity guarantee.
 
 Unknown types, gradients and diagonal line segments are rejected by builders. Use a dedicated authoring tool for unsupported structures rather than silently flattening them. Audit warnings require review and are not aesthetic scores. Bounds checks do not measure glyph clipping, overlap or real-app font substitution.

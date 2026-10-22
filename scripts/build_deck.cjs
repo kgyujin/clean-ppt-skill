@@ -46,7 +46,16 @@ async function main() {
         const [iw,ih]=JSON.parse(measured.stdout); const scale=Math.min(box.w/iw,box.h/ih);
         slide.addImage({path:resource,x:box.x+(box.w-iw*scale)/2,y:box.y+(box.h-ih*scale)/2,w:iw*scale,h:ih*scale});
       } else if (e.type === 'table') {
-        slide.addTable(e.rows,{...box,fontFace:font,fontSize:(e.fontSize||24)*.75,color:theme.text,border:{type:'solid',pt:.75,color:theme.line},fill:theme.background,margin:6,rowH:e.h/e.rows.length/96,autoPage:false});
+        const widths=e.colWidths || e.rows[0].map(()=>e.w/e.rows[0].length);
+        if(widths.length!==e.rows[0].length || widths.some(w=>w<=0) || Math.abs(widths.reduce((a,b)=>a+b,0)-e.w)>.01) throw Error('Table colWidths must be positive and sum to w');
+        const none={type:'none',pt:0,color:theme.background};
+        const rows=e.rows.map((row,ri)=>row.map((cell,ci)=>({text:String(cell),options:{
+          bold:ri===0 || ci===0, color:ri===0 || ci===e.highlightColumn?theme.accent:theme.text,
+          fill:{color:ri>0 && e.banded && ri%2===1?(e.bandColor||'EEF3F9'):theme.background},
+          border:[none,none,{type:'solid',pt:ri===0?1:.5,color:theme.line},none]
+        }})));
+        slide.addTable(rows,{...box,fontFace:font,fontSize:(e.fontSize||24)*.75,color:theme.text,
+          colW:widths.map(px),margin:[12,14,12,14],valign:'mid',rowH:e.h/e.rows.length/96,autoPage:false});
       } else if(e.type === 'barChart') {
         slide.addChart(pptx.ChartType.bar,e.series,{...box,barDir:'col',catAxisLabelFontFace:font,valAxisLabelFontFace:font,catAxisLabelFontSize:14,valAxisLabelFontSize:14,showLegend:e.series.length>1,showTitle:false,chartColors:e.colors||[theme.accent],showValue:true,showCatName:false,showBorder:false,showCatName:false});
       } else throw Error(`Unsupported element type: ${e.type}`);

@@ -75,11 +75,20 @@ def main():
                 resource=scene_path.parent/e['path']; image=Image.open(resource);iw,ih=image.size; scale=min(w/iw,h/ih)
                 pdf.drawImage(ImageReader(image),x+(w-iw*scale)/2,y+(h-ih*scale)/2,iw*scale,ih*scale,mask='auto')
             elif kind=='table':
-                rows=e['rows'];rh=h/len(rows);cw=w/len(rows[0]);pdf.setStrokeColor(color(theme['line']))
+                rows=e['rows'];rh=h/len(rows);widths=e.get('colWidths',[w/len(rows[0])]*len(rows[0]))
+                if len(widths)!=len(rows[0]) or any(cw<=0 for cw in widths) or abs(sum(widths)-w)>.01:
+                    raise ValueError('Table colWidths must be positive and sum to w')
                 for ri,row in enumerate(rows):
+                    top=e['y']+ri*rh
+                    if ri>0 and e.get('banded') and ri%2==1:
+                        pdf.setFillColor(color(e.get('bandColor','EEF3F9')));pdf.rect(x,720-top-rh,w,rh,fill=1,stroke=0)
+                    offset=0
                     for ci,cell in enumerate(row):
-                        pdf.rect(x+ci*cw,y+h-(ri+1)*rh,cw,rh,stroke=1,fill=0)
-                        draw_text(dict(text=str(cell),x=x+ci*cw+8,y=e['y']+ri*rh+8,w=cw-16,h=rh-16,fontSize=e.get('fontSize',24)))
+                        cw=widths[ci];size=e.get('fontSize',24)
+                        draw_text(dict(text=str(cell),x=x+offset+18,y=top+(rh-size)/2-2,w=cw-36,h=rh-16,fontSize=size,bold=ri==0 or ci==0,color=theme['accent'] if ri==0 or ci==e.get('highlightColumn') else theme['text']))
+                        offset+=cw
+                    pdf.setStrokeColor(color(theme['line']));pdf.setLineWidth(1.3 if ri==0 else .7)
+                    pdf.line(x,720-top-rh,x+w,720-top-rh)
             elif kind=='barChart':
                 series=e['series'];labels=series[0]['labels'];maximum=max(max(s['values']) for s in series)
                 if maximum<=0 or any(v<0 for s in series for v in s['values']):raise ValueError('Preview bar chart supports nonnegative values with positive maximum only')
