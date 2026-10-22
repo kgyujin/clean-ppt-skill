@@ -1,0 +1,822 @@
+{
+  "width": 1280,
+  "height": 720,
+  "font": "Pretendard",
+  "meta": {
+    "title": "사내 문서 검색 도입 제안",
+    "author": ""
+  },
+  "theme": {
+    "background": "FFFFFF",
+    "text": "18382D",
+    "muted": "587067",
+    "accent": "22634F",
+    "line": "C9DDD2"
+  },
+  "slides": [
+    {
+      "title": "왜 필요한가",
+      "section": "사내 문서 검색 도입 제안",
+      "notes": "약 35초. 반복 질문과 최신 문서를 찾는 어려움을 먼저 짚습니다. 공개 가능한 안내 문서만 모아 작은 범위로 시작하는 제안이며, 아직 구현이나 성과를 검증한 상태는 아닙니다.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "반복되는 질문과 최신 문서 탐색의 어려움부터 줄입니다.",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 38,
+          "fontSize": 23,
+          "bold": false,
+          "color": "587067"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 230,
+          "w": 520,
+          "h": 270,
+          "fill": "EDF5F0",
+          "stroke": "EDF5F0"
+        },
+        {
+          "type": "text",
+          "text": "현재의 불편",
+          "x": 84,
+          "y": 255,
+          "w": 464,
+          "h": 45,
+          "fontSize": 30,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "같은 질문을 반복합니다.\n최신 업무 문서가 어느 폴더에\n있는지 찾기 어렵습니다.",
+          "x": 84,
+          "y": 320,
+          "w": 464,
+          "h": 140,
+          "fontSize": 29,
+          "bold": false,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "작게 시작하는 제안",
+          "x": 650,
+          "y": 255,
+          "w": 550,
+          "h": 45,
+          "fontSize": 30,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "공개 가능한 사내 안내 문서만\n검색 대상으로 정리합니다.",
+          "x": 650,
+          "y": 320,
+          "w": 550,
+          "h": 96,
+          "fontSize": 30,
+          "bold": false,
+          "color": "18382D"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              650,
+              448
+            ],
+            [
+              1190,
+              448
+            ]
+          ],
+          "stroke": "22634F",
+          "strokeWidth": 2,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "text": "권한이 필요한 문서는 초기 대상에서 제외",
+          "x": 650,
+          "y": 470,
+          "w": 550,
+          "h": 82,
+          "fontSize": 25,
+          "bold": false,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "가상 기획안 · 구현 완료나 검증된 성과를 의미하지 않습니다.",
+          "x": 56,
+          "y": 594,
+          "w": 1168,
+          "h": 36,
+          "fontSize": 20,
+          "bold": false,
+          "color": "587067"
+        }
+      ]
+    },
+    {
+      "title": "사용자 흐름",
+      "section": "사내 문서 검색 도입 제안",
+      "notes": "약 35초. 왼쪽에서 오른쪽으로 질문, 관련 문서 검색, 답변 초안 순서로 설명합니다. 답변만 제시하는 것이 아니라 참고 문서를 함께 보여 주는 제안입니다. 초기에는 권한이 필요한 문서를 제외합니다.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "답변 초안과 관련 문서를 함께 확인하는 흐름입니다.",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 38,
+          "fontSize": 23,
+          "bold": false,
+          "color": "587067"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 248,
+          "w": 348,
+          "h": 210,
+          "fill": "EDF5F0",
+          "stroke": "EDF5F0"
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "x": 80,
+          "y": 266,
+          "w": 300,
+          "h": 35,
+          "fontSize": 23,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "질문",
+          "x": 80,
+          "y": 313,
+          "w": 300,
+          "h": 45,
+          "fontSize": 30,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "업무 관련 질문을 입력",
+          "x": 80,
+          "y": 385,
+          "w": 300,
+          "h": 54,
+          "fontSize": 23,
+          "bold": false,
+          "color": "18382D"
+        },
+        {
+          "type": "rect",
+          "x": 466,
+          "y": 248,
+          "w": 348,
+          "h": 210,
+          "fill": "EDF5F0",
+          "stroke": "EDF5F0"
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "x": 490,
+          "y": 266,
+          "w": 300,
+          "h": 35,
+          "fontSize": 23,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "관련 문서 검색",
+          "x": 490,
+          "y": 313,
+          "w": 300,
+          "h": 45,
+          "fontSize": 30,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "정리한 안내 문서에서 탐색",
+          "x": 490,
+          "y": 385,
+          "w": 300,
+          "h": 54,
+          "fontSize": 23,
+          "bold": false,
+          "color": "18382D"
+        },
+        {
+          "type": "rect",
+          "x": 876,
+          "y": 248,
+          "w": 348,
+          "h": 210,
+          "fill": "EDF5F0",
+          "stroke": "EDF5F0"
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "x": 900,
+          "y": 266,
+          "w": 300,
+          "h": 35,
+          "fontSize": 23,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "답변 초안",
+          "x": 900,
+          "y": 313,
+          "w": 300,
+          "h": 45,
+          "fontSize": 30,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "참고 문서와 함께 제시",
+          "x": 900,
+          "y": 385,
+          "w": 300,
+          "h": 54,
+          "fontSize": 23,
+          "bold": false,
+          "color": "18382D"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              416,
+              350
+            ],
+            [
+              450,
+              350
+            ]
+          ],
+          "stroke": "22634F",
+          "strokeWidth": 2,
+          "endArrow": true
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              826,
+              350
+            ],
+            [
+              860,
+              350
+            ]
+          ],
+          "stroke": "22634F",
+          "strokeWidth": 2,
+          "endArrow": true
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 510,
+          "w": 1168,
+          "h": 100,
+          "fill": "EDF5F0",
+          "stroke": "EDF5F0"
+        },
+        {
+          "type": "text",
+          "text": "초기 검색 범위",
+          "x": 80,
+          "y": 531,
+          "w": 240,
+          "h": 38,
+          "fontSize": 25,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "공개 가능한 안내 문서만 사용 · 권한 문서 제외",
+          "x": 340,
+          "y": 531,
+          "w": 850,
+          "h": 48,
+          "fontSize": 26,
+          "bold": false,
+          "color": "18382D"
+        }
+      ]
+    },
+    {
+      "title": "시험 일정",
+      "section": "사내 문서 검색 도입 제안",
+      "notes": "약 35초. 1주차에는 30개 문서를 정리하고, 2주차에는 담당자 3명이 시험 사용합니다. 이후 찾지 못한 질문을 기록하고 검색 자료를 보완합니다. 일정은 이 기획안의 제안이며 완료 실적이 아닙니다.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "문서를 정리하고, 소수 담당자가 시험한 뒤 자료를 보완합니다.",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 38,
+          "fontSize": 23,
+          "bold": false,
+          "color": "587067"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              416,
+              272
+            ],
+            [
+              450,
+              272
+            ]
+          ],
+          "stroke": "22634F",
+          "strokeWidth": 2,
+          "endArrow": true
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              826,
+              272
+            ],
+            [
+              860,
+              272
+            ]
+          ],
+          "stroke": "22634F",
+          "strokeWidth": 2,
+          "endArrow": true
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 240,
+          "w": 348,
+          "h": 64,
+          "fill": "22634F",
+          "stroke": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "1주차",
+          "x": 76,
+          "y": 250,
+          "w": 308,
+          "h": 40,
+          "fontSize": 28,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "30개 문서 정리",
+          "x": 56,
+          "y": 347,
+          "w": 348,
+          "h": 76,
+          "fontSize": 29,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "검색 대상 안내 문서를 모아 정리",
+          "x": 56,
+          "y": 448,
+          "w": 348,
+          "h": 100,
+          "fontSize": 25,
+          "bold": false,
+          "color": "587067"
+        },
+        {
+          "type": "rect",
+          "x": 466,
+          "y": 240,
+          "w": 348,
+          "h": 64,
+          "fill": "22634F",
+          "stroke": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "2주차",
+          "x": 486,
+          "y": 250,
+          "w": 308,
+          "h": 40,
+          "fontSize": 28,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "담당자 3명 시험 사용",
+          "x": 466,
+          "y": 347,
+          "w": 348,
+          "h": 76,
+          "fontSize": 29,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "실제 업무 질문으로 사용해 보기",
+          "x": 466,
+          "y": 448,
+          "w": 348,
+          "h": 100,
+          "fontSize": 25,
+          "bold": false,
+          "color": "587067"
+        },
+        {
+          "type": "rect",
+          "x": 876,
+          "y": 240,
+          "w": 348,
+          "h": 64,
+          "fill": "22634F",
+          "stroke": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "이후",
+          "x": 896,
+          "y": 250,
+          "w": 308,
+          "h": 40,
+          "fontSize": 28,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "검색 자료 보완",
+          "x": 876,
+          "y": 347,
+          "w": 348,
+          "h": 76,
+          "fontSize": 29,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "찾지 못한 질문을 기록해 보완",
+          "x": 876,
+          "y": 448,
+          "w": 348,
+          "h": 100,
+          "fontSize": 25,
+          "bold": false,
+          "color": "587067"
+        },
+        {
+          "type": "text",
+          "text": "시험 사용에서 발견한 질문을 다음 자료 정리에 반영합니다.",
+          "x": 56,
+          "y": 590,
+          "w": 1168,
+          "h": 38,
+          "fontSize": 24,
+          "bold": false,
+          "color": "22634F"
+        }
+      ]
+    },
+    {
+      "title": "확인할 항목",
+      "section": "사내 문서 검색 도입 제안",
+      "notes": "약 40초. 정확도, 응답시간, 비용은 아직 측정하지 않았고 예산도 미정입니다. 시험 사용에서는 관련 문서를 찾는지, 얼마나 걸리는지, 비용은 얼마인지 확인합니다. 찾지 못한 질문은 자료 보완에 사용합니다.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "시험 사용에서 확인할 사항이며, 성과 수치는 아직 없습니다.",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 38,
+          "fontSize": 23,
+          "bold": false,
+          "color": "587067"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              225
+            ],
+            [
+              1224,
+              225
+            ]
+          ],
+          "stroke": "22634F",
+          "strokeWidth": 2,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "text": "검색 정확도",
+          "x": 56,
+          "y": 239,
+          "w": 300,
+          "h": 56,
+          "fontSize": 28,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "질문에 맞는 관련 문서를 찾는지 확인",
+          "x": 400,
+          "y": 239,
+          "w": 824,
+          "h": 56,
+          "fontSize": 27,
+          "bold": false,
+          "color": "18382D"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              310
+            ],
+            [
+              1224,
+              310
+            ]
+          ],
+          "stroke": "22634F",
+          "strokeWidth": 2,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "text": "응답시간",
+          "x": 56,
+          "y": 324,
+          "w": 300,
+          "h": 56,
+          "fontSize": 28,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "질문부터 답변 초안까지 걸리는 시간 확인",
+          "x": 400,
+          "y": 324,
+          "w": 824,
+          "h": 56,
+          "fontSize": 27,
+          "bold": false,
+          "color": "18382D"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              395
+            ],
+            [
+              1224,
+              395
+            ]
+          ],
+          "stroke": "22634F",
+          "strokeWidth": 2,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "text": "비용",
+          "x": 56,
+          "y": 409,
+          "w": 300,
+          "h": 56,
+          "fontSize": 28,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "시험 운영 비용을 파악하고 예산 검토",
+          "x": 400,
+          "y": 409,
+          "w": 824,
+          "h": 56,
+          "fontSize": 27,
+          "bold": false,
+          "color": "18382D"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              480
+            ],
+            [
+              1224,
+              480
+            ]
+          ],
+          "stroke": "22634F",
+          "strokeWidth": 2,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "text": "찾지 못한 질문",
+          "x": 56,
+          "y": 494,
+          "w": 300,
+          "h": 56,
+          "fontSize": 28,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "누락 질문을 기록하고 필요한 자료 보완",
+          "x": 400,
+          "y": 494,
+          "w": 824,
+          "h": 56,
+          "fontSize": 27,
+          "bold": false,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "현재 상태: 정확도·응답시간·비용 미측정 / 예산 미정",
+          "x": 56,
+          "y": 598,
+          "w": 1168,
+          "h": 38,
+          "fontSize": 23,
+          "bold": false,
+          "color": "22634F"
+        }
+      ]
+    },
+    {
+      "title": "도입 판단",
+      "section": "사내 문서 검색 도입 제안",
+      "notes": "약 35초. 우선 제한된 범위의 시험 사용을 제안합니다. 시험 결과를 정리하고 자료 보완 필요성을 검토한 뒤 도입 여부를 판단합니다. 정확도나 비용 목표를 달성했다고 말할 수 있는 단계가 아니며 예산은 아직 미정입니다.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "시험 결과와 자료 보완 필요성을 검토한 뒤 다음 단계를 정합니다.",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 38,
+          "fontSize": 23,
+          "bold": false,
+          "color": "587067"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 234,
+          "w": 1168,
+          "h": 92,
+          "fill": "22634F",
+          "stroke": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "이번 제안: 제한된 범위의 시험 사용부터 시작",
+          "x": 80,
+          "y": 254,
+          "w": 1120,
+          "h": 52,
+          "fontSize": 32,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "x": 56,
+          "y": 366,
+          "w": 90,
+          "h": 45,
+          "fontSize": 29,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "시험 사용 결과 정리",
+          "x": 160,
+          "y": 366,
+          "w": 1030,
+          "h": 45,
+          "fontSize": 30,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "검색 정확도 · 응답시간 · 비용 · 찾지 못한 질문",
+          "x": 160,
+          "y": 415,
+          "w": 1030,
+          "h": 45,
+          "fontSize": 25,
+          "bold": false,
+          "color": "587067"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              480
+            ],
+            [
+              1224,
+              480
+            ]
+          ],
+          "stroke": "22634F",
+          "strokeWidth": 2,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "x": 56,
+          "y": 507,
+          "w": 90,
+          "h": 45,
+          "fontSize": 29,
+          "bold": true,
+          "color": "22634F"
+        },
+        {
+          "type": "text",
+          "text": "자료 보완과 도입 여부 검토",
+          "x": 160,
+          "y": 507,
+          "w": 1030,
+          "h": 45,
+          "fontSize": 30,
+          "bold": true,
+          "color": "18382D"
+        },
+        {
+          "type": "text",
+          "text": "미측정 항목과 미정 예산을 확인한 뒤 판단합니다.",
+          "x": 160,
+          "y": 558,
+          "w": 1030,
+          "h": 50,
+          "fontSize": 25,
+          "bold": false,
+          "color": "587067"
+        }
+      ]
+    }
+  ]
+}
