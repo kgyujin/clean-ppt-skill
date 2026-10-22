@@ -11,7 +11,7 @@
 
 </div>
 
-![파란 비즈니스 스타일 6장 미리보기](examples/business-blue/preview.png)
+![파란 비즈니스 스타일 6장 미리보기](examples/business-blue/preview-v3.png)
 
 ## 어떤 스킬인가요?
 
@@ -34,11 +34,11 @@
 
 ### V9 비교·결과 템플릿
 
-실제 V9의 비교 페이지와 결과 페이지에서 좌표, 글자 크기와 행 간격을 옮겼습니다. 내용은 가상 업무 예제로 바꿨습니다. 세로 격자 대신 가는 가로선, 핵심 문구와 보조 설명, 방향을 보여주는 화살표를 사용합니다.
+V9의 서체·색상·정렬 체계를 바탕으로 비교와 수치 자료에 맞게 구성했습니다. 비교 페이지는 기존과 개선 열의 강조를 구분하고, 수치 페이지는 큰 숫자와 비례 막대로 차이를 보여줍니다. 내용은 가상 업무 예제입니다.
 
 | 기존 방식과 개선 방향 | 결과와 확인 범위 |
 | --- | --- |
-| ![V9 비교 영역](examples/business-blue/slides/slide-02.png) | ![V9 결과 영역](examples/business-blue/slides/slide-04.png) |
+| ![V9 비교 영역](examples/business-blue/slides/comparison-v3.png) | ![V9 결과 영역](examples/business-blue/slides/metrics-v3.png) |
 
 [비교 템플릿 JSON](templates/v9-comparison.json) · [결과 템플릿 JSON](templates/v9-results.json)
 

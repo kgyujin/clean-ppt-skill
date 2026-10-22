@@ -127,184 +127,176 @@
       ]
     },
     {
-      "title": "기록 방식과 개선 방향",
+      "title": "기록 방식의 변화",
       "frame": false,
       "notes": "가상 연습 자료입니다. 표시된 조건과 수치를 함께 설명합니다.",
       "elements": [
         {
           "type": "text",
+          "text": "업무 개선 / 가상 연습",
           "x": 56,
           "y": 30,
-          "w": 650,
-          "h": 18,
-          "text": "업무 개선 / 비교",
+          "w": 850,
+          "h": 24,
+          "fontSize": 13,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 13
-        },
-        {
-          "type": "line",
-          "points": [
-            [
-              56,
-              668
-            ],
-            [
-              1224,
-              668
-            ]
-          ],
-          "stroke": "CDD6E1",
-          "strokeWidth": 1,
-          "endArrow": false
+          "bold": false
         },
         {
           "type": "text",
-          "x": 56,
-          "y": 682,
-          "w": 800,
-          "h": 16,
-          "text": "반품 검수 기록 자동화",
-          "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 12
-        },
-        {
-          "type": "text",
-          "x": 1130,
-          "y": 680,
-          "w": 94,
-          "h": 20,
-          "text": "02 / 06",
-          "color": "526174",
-          "bold": false,
-          "align": "right",
-          "fontSize": 14
-        },
-        {
-          "type": "text",
+          "text": "기록 방식의 변화",
           "x": 56,
           "y": 79,
           "w": 1168,
-          "h": 62,
-          "text": "기록 방식과 개선 방향",
+          "h": 64,
+          "fontSize": 44,
           "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 44
+          "bold": true
         },
         {
           "type": "text",
+          "text": "종이에서 엑셀로 옮기던 기록을 검수 현장에서 마칩니다.",
           "x": 56,
           "y": 157,
           "w": 1168,
-          "h": 34,
-          "text": "검수 기록을 옮겨 적는 과정을 현장 입력으로 바꿉니다.",
+          "h": 36,
+          "fontSize": 21,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 1.2,
+          "endArrow": false
         },
         {
           "type": "text",
+          "text": "반품 검수 기록 자동화",
           "x": 56,
-          "y": 216,
-          "w": 150,
-          "h": 24,
-          "text": "비교 항목",
-          "color": "2459A6",
-          "bold": true,
-          "align": "left",
-          "fontSize": 15
+          "y": 682,
+          "w": 850,
+          "h": 20,
+          "fontSize": 12,
+          "color": "526174",
+          "bold": false
         },
         {
           "type": "text",
-          "x": 251,
-          "y": 216,
-          "w": 150,
+          "text": "02 / 06",
+          "x": 1130,
+          "y": 680,
+          "w": 94,
           "h": 24,
+          "fontSize": 14,
+          "color": "526174",
+          "bold": false
+        },
+        {
+          "type": "rect",
+          "x": 244,
+          "y": 216,
+          "w": 418,
+          "h": 52,
+          "fill": "F0F2F5",
+          "stroke": "F0F2F5",
+          "strokeWidth": 0
+        },
+        {
+          "type": "rect",
+          "x": 742,
+          "y": 216,
+          "w": 482,
+          "h": 52,
+          "fill": "2459A6",
+          "stroke": "2459A6",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
           "text": "기존 방식",
-          "color": "2459A6",
-          "bold": true,
-          "align": "left",
-          "fontSize": 15
+          "x": 268,
+          "y": 228,
+          "w": 350,
+          "h": 32,
+          "fontSize": 23,
+          "color": "526174",
+          "bold": true
         },
         {
           "type": "text",
-          "x": 768,
-          "y": 216,
-          "w": 150,
-          "h": 24,
-          "text": "개선 후",
-          "color": "2459A6",
-          "bold": true,
-          "align": "left",
-          "fontSize": 15
+          "text": "개선 방식",
+          "x": 766,
+          "y": 228,
+          "w": 430,
+          "h": 32,
+          "fontSize": 23,
+          "color": "FFFFFF",
+          "bold": true
         },
         {
-          "type": "line",
-          "points": [
-            [
-              56,
-              246
-            ],
-            [
-              1224,
-              246
-            ]
-          ],
-          "stroke": "CDD6E1",
-          "strokeWidth": 1.5,
-          "endArrow": false
+          "type": "rect",
+          "x": 742,
+          "y": 280,
+          "w": 482,
+          "h": 306,
+          "fill": "F4F7FB",
+          "stroke": "F4F7FB",
+          "strokeWidth": 0
         },
         {
           "type": "text",
-          "x": 56,
-          "y": 265,
-          "w": 170,
-          "h": 44,
           "text": "기록 도구",
+          "x": 56,
+          "y": 295,
+          "w": 164,
+          "h": 38,
+          "fontSize": 26,
           "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
+          "bold": true
         },
         {
           "type": "text",
-          "x": 251,
-          "y": 259,
-          "w": 430,
-          "h": 36,
           "text": "종이 체크리스트",
+          "x": 268,
+          "y": 295,
+          "w": 370,
+          "h": 38,
+          "fontSize": 26,
           "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
+          "bold": true
         },
         {
           "type": "text",
-          "x": 251,
-          "y": 303,
-          "w": 430,
-          "h": 37,
           "text": "검수 내용을 종이에 기입",
+          "x": 268,
+          "y": 337,
+          "w": 370,
+          "h": 32,
+          "fontSize": 20,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
+          "bold": false
         },
         {
           "type": "line",
           "points": [
             [
-              701,
-              287
+              684,
+              321
             ],
             [
-              739,
-              287
+              720,
+              321
             ]
           ],
           "stroke": "2459A6",
@@ -313,90 +305,101 @@
         },
         {
           "type": "text",
-          "x": 768,
-          "y": 259,
-          "w": 445,
-          "h": 36,
-          "text": "태블릿에서 직접 기록",
+          "text": "태블릿 입력",
+          "x": 766,
+          "y": 295,
+          "w": 430,
+          "h": 38,
+          "fontSize": 26,
           "color": "2459A6",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
+          "bold": true
         },
         {
           "type": "text",
-          "x": 768,
-          "y": 303,
-          "w": 445,
-          "h": 37,
-          "text": "상품 코드를 조회해 입력 시작",
+          "text": "상품 코드를 조회해 기록 시작",
+          "x": 766,
+          "y": 337,
+          "w": 430,
+          "h": 32,
+          "fontSize": 20,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
+          "bold": false
         },
         {
           "type": "line",
           "points": [
             [
               56,
-              369
+              382
             ],
             [
-              1224,
-              369
+              662,
+              382
             ]
           ],
           "stroke": "CDD6E1",
-          "strokeWidth": 1.5,
+          "strokeWidth": 1.2,
+          "endArrow": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              766,
+              382
+            ],
+            [
+              1200,
+              382
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 1.2,
           "endArrow": false
         },
         {
           "type": "text",
-          "x": 56,
-          "y": 388,
-          "w": 170,
-          "h": 44,
           "text": "업무 순서",
+          "x": 56,
+          "y": 397,
+          "w": 164,
+          "h": 38,
+          "fontSize": 26,
           "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
+          "bold": true
         },
         {
           "type": "text",
-          "x": 251,
-          "y": 382,
-          "w": 430,
-          "h": 36,
-          "text": "검수 후 엑셀에 재입력",
+          "text": "검수 후 재입력",
+          "x": 268,
+          "y": 397,
+          "w": 370,
+          "h": 38,
+          "fontSize": 26,
           "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
+          "bold": true
         },
         {
           "type": "text",
-          "x": 251,
-          "y": 426,
-          "w": 430,
-          "h": 37,
-          "text": "검수와 기록 시점이 분리",
+          "text": "종이 기록을 엑셀로 옮겨 작성",
+          "x": 268,
+          "y": 439,
+          "w": 370,
+          "h": 32,
+          "fontSize": 20,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
+          "bold": false
         },
         {
           "type": "line",
           "points": [
             [
-              701,
-              410
+              684,
+              423
             ],
             [
-              739,
-              410
+              720,
+              423
             ]
           ],
           "stroke": "2459A6",
@@ -405,90 +408,101 @@
         },
         {
           "type": "text",
-          "x": 768,
-          "y": 382,
-          "w": 445,
-          "h": 36,
-          "text": "검수 단계에서 바로 저장",
+          "text": "현장에서 저장",
+          "x": 766,
+          "y": 397,
+          "w": 430,
+          "h": 38,
+          "fontSize": 26,
           "color": "2459A6",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
+          "bold": true
         },
         {
           "type": "text",
-          "x": 768,
-          "y": 426,
-          "w": 445,
-          "h": 37,
-          "text": "현장에서 상태와 사진을 함께 입력",
+          "text": "검수 단계에서 입력까지 완료",
+          "x": 766,
+          "y": 439,
+          "w": 430,
+          "h": 32,
+          "fontSize": 20,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
+          "bold": false
         },
         {
           "type": "line",
           "points": [
             [
               56,
-              492
+              484
             ],
             [
-              1224,
-              492
+              662,
+              484
             ]
           ],
           "stroke": "CDD6E1",
-          "strokeWidth": 1.5,
+          "strokeWidth": 1.2,
           "endArrow": false
-        },
-        {
-          "type": "text",
-          "x": 56,
-          "y": 511,
-          "w": 170,
-          "h": 44,
-          "text": "기록 구성",
-          "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
-        },
-        {
-          "type": "text",
-          "x": 251,
-          "y": 505,
-          "w": 430,
-          "h": 36,
-          "text": "체크리스트 내용 입력",
-          "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
-        },
-        {
-          "type": "text",
-          "x": 251,
-          "y": 549,
-          "w": 430,
-          "h": 37,
-          "text": "종이에서 엑셀로 옮겨 작성",
-          "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
         },
         {
           "type": "line",
           "points": [
             [
-              701,
-              533
+              766,
+              484
             ],
             [
-              739,
-              533
+              1200,
+              484
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 1.2,
+          "endArrow": false
+        },
+        {
+          "type": "text",
+          "text": "기록 구성",
+          "x": 56,
+          "y": 499,
+          "w": 164,
+          "h": 38,
+          "fontSize": 26,
+          "color": "192A40",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "체크리스트 중심",
+          "x": 268,
+          "y": 499,
+          "w": 370,
+          "h": 38,
+          "fontSize": 26,
+          "color": "192A40",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "검수 내용을 문서에 기록",
+          "x": 268,
+          "y": 541,
+          "w": 370,
+          "h": 32,
+          "fontSize": 20,
+          "color": "526174",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              684,
+              525
+            ],
+            [
+              720,
+              525
             ]
           ],
           "stroke": "2459A6",
@@ -497,27 +511,47 @@
         },
         {
           "type": "text",
-          "x": 768,
-          "y": 505,
-          "w": 445,
-          "h": 36,
-          "text": "상태와 사진을 함께 저장",
+          "text": "상태와 사진",
+          "x": 766,
+          "y": 499,
+          "w": 430,
+          "h": 38,
+          "fontSize": 26,
           "color": "2459A6",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
+          "bold": true
         },
         {
           "type": "text",
-          "x": 768,
-          "y": 549,
-          "w": 445,
-          "h": 37,
-          "text": "담당자가 최종 검수를 확정",
+          "text": "확인한 상태와 사진을 함께 저장",
+          "x": 766,
+          "y": 541,
+          "w": 430,
+          "h": 32,
+          "fontSize": 20,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "업무 책임",
+          "x": 56,
+          "y": 616,
+          "w": 150,
+          "h": 30,
+          "fontSize": 18,
+          "color": "2459A6",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "최종 검수는 담당자가 확정합니다. 자동 환불은 수행하지 않습니다.",
+          "x": 244,
+          "y": 613,
+          "w": 980,
+          "h": 35,
+          "fontSize": 21,
+          "color": "192A40",
+          "bold": false
         }
       ]
     },
@@ -750,21 +784,42 @@
       ]
     },
     {
-      "title": "연습 결과와 확인 범위",
+      "title": "검수 시간과 입력 누락",
       "frame": false,
       "notes": "가상 연습 자료입니다. 표시된 조건과 수치를 함께 설명합니다.",
       "elements": [
         {
           "type": "text",
+          "text": "업무 개선 / 가상 연습",
           "x": 56,
           "y": 30,
-          "w": 650,
-          "h": 18,
-          "text": "업무 개선 / 연습 비교",
+          "w": 850,
+          "h": 24,
+          "fontSize": 13,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 13
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "검수 시간과 입력 누락",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "fontSize": 44,
+          "color": "192A40",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "기존 방식과 개선 방식을 각각 20건씩 비교한 연습 자료입니다.",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 36,
+          "fontSize": 21,
+          "color": "526174",
+          "bold": false
         },
         {
           "type": "line",
@@ -779,232 +834,388 @@
             ]
           ],
           "stroke": "CDD6E1",
-          "strokeWidth": 1,
+          "strokeWidth": 1.2,
           "endArrow": false
         },
         {
           "type": "text",
+          "text": "반품 검수 기록 자동화",
           "x": 56,
           "y": 682,
-          "w": 800,
-          "h": 16,
-          "text": "반품 검수 기록 자동화",
+          "w": 850,
+          "h": 20,
+          "fontSize": 12,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 12
+          "bold": false
         },
         {
           "type": "text",
+          "text": "04 / 06",
           "x": 1130,
           "y": 680,
           "w": 94,
-          "h": 20,
-          "text": "04 / 06",
+          "h": 24,
+          "fontSize": 14,
           "color": "526174",
-          "bold": false,
-          "align": "right",
-          "fontSize": 14
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              640,
+              224
+            ],
+            [
+              640,
+              588
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 1.2,
+          "endArrow": false
         },
         {
           "type": "text",
-          "x": 56,
-          "y": 79,
-          "w": 1168,
-          "h": 62,
-          "text": "연습 결과와 확인 범위",
-          "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 44
-        },
-        {
-          "type": "text",
-          "x": 56,
-          "y": 157,
-          "w": 1168,
-          "h": 34,
-          "text": "기존 20건과 개선 20건을 같은 기준으로 비교한 가상 자료입니다.",
-          "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
-        },
-        {
-          "type": "rect",
-          "x": 56,
-          "y": 219,
-          "w": 1168,
-          "h": 121,
-          "fill": "EEF3F9",
-          "stroke": "EEF3F9",
-          "strokeWidth": 0
-        },
-        {
-          "type": "text",
-          "x": 78,
-          "y": 241,
-          "w": 128,
-          "h": 68,
-          "text": "9분",
-          "color": "2459A6",
-          "bold": true,
-          "align": "left",
-          "fontSize": 47
-        },
-        {
-          "type": "text",
-          "x": 225,
-          "y": 243,
-          "w": 345,
-          "h": 35,
           "text": "건당 평균 검수 시간",
+          "x": 56,
+          "y": 222,
+          "w": 520,
+          "h": 42,
+          "fontSize": 28,
           "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 23
+          "bold": true
         },
         {
           "type": "text",
-          "x": 628,
-          "y": 239,
-          "w": 568,
-          "h": 37,
-          "text": "기존 16분 → 개선 9분",
-          "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
-        },
-        {
-          "type": "text",
-          "x": 628,
-          "y": 286,
-          "w": 568,
-          "h": 40,
-          "text": "검수와 기록을 한 기기에서 진행",
+          "text": "기존",
+          "x": 56,
+          "y": 290,
+          "w": 160,
+          "h": 28,
+          "fontSize": 18,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
+          "bold": true
         },
         {
           "type": "text",
-          "x": 78,
-          "y": 378,
-          "w": 128,
-          "h": 68,
-          "text": "3건",
+          "text": "개선",
+          "x": 348,
+          "y": 290,
+          "w": 200,
+          "h": 28,
+          "fontSize": 18,
           "color": "2459A6",
-          "bold": true,
-          "align": "left",
-          "fontSize": 47
+          "bold": true
         },
         {
           "type": "text",
-          "x": 225,
-          "y": 380,
-          "w": 345,
-          "h": 35,
-          "text": "입력 누락 건수",
-          "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 23
-        },
-        {
-          "type": "text",
-          "x": 628,
-          "y": 376,
-          "w": 568,
-          "h": 37,
-          "text": "기존 7건 → 개선 3건",
-          "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
-        },
-        {
-          "type": "text",
-          "x": 628,
-          "y": 423,
-          "w": 568,
-          "h": 40,
-          "text": "표본이 작아 일반 성능으로 확대하지 않음",
+          "text": "16",
+          "x": 56,
+          "y": 325,
+          "w": 140,
+          "h": 96,
+          "fontSize": 70,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "분",
+          "x": 164,
+          "y": 364,
+          "w": 60,
+          "h": 45,
+          "fontSize": 28,
+          "color": "526174",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              244,
+              373
+            ],
+            [
+              308,
+              373
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": true
+        },
+        {
+          "type": "text",
+          "text": "9",
+          "x": 348,
+          "y": 317,
+          "w": 130,
+          "h": 105,
+          "fontSize": 82,
+          "color": "2459A6",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "분",
+          "x": 408,
+          "y": 364,
+          "w": 60,
+          "h": 45,
+          "fontSize": 28,
+          "color": "2459A6",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "기존",
+          "x": 56,
+          "y": 476,
+          "w": 65,
+          "h": 30,
+          "fontSize": 18,
+          "color": "526174",
+          "bold": false
+        },
+        {
+          "type": "rect",
+          "x": 132,
+          "y": 478,
+          "w": 440,
+          "h": 18,
+          "fill": "F0F3F7",
+          "stroke": "F0F3F7",
+          "strokeWidth": 0
+        },
+        {
+          "type": "rect",
+          "x": 132,
+          "y": 478,
+          "w": 440.0,
+          "h": 18,
+          "fill": "BCC8D8",
+          "stroke": "BCC8D8",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "text": "개선",
+          "x": 56,
+          "y": 529,
+          "w": 65,
+          "h": 30,
+          "fontSize": 18,
+          "color": "526174",
+          "bold": false
+        },
+        {
+          "type": "rect",
+          "x": 132,
+          "y": 531,
+          "w": 440,
+          "h": 18,
+          "fill": "F0F3F7",
+          "stroke": "F0F3F7",
+          "strokeWidth": 0
+        },
+        {
+          "type": "rect",
+          "x": 132,
+          "y": 531,
+          "w": 247.5,
+          "h": 18,
+          "fill": "2459A6",
+          "stroke": "2459A6",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "text": "입력 누락",
+          "x": 704,
+          "y": 222,
+          "w": 520,
+          "h": 42,
+          "fontSize": 28,
+          "color": "192A40",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "기존",
+          "x": 704,
+          "y": 290,
+          "w": 160,
+          "h": 28,
+          "fontSize": 18,
+          "color": "526174",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "개선",
+          "x": 996,
+          "y": 290,
+          "w": 200,
+          "h": 28,
+          "fontSize": 18,
+          "color": "2459A6",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "7",
+          "x": 704,
+          "y": 325,
+          "w": 140,
+          "h": 96,
+          "fontSize": 70,
+          "color": "526174",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "건",
+          "x": 764,
+          "y": 364,
+          "w": 60,
+          "h": 45,
+          "fontSize": 28,
+          "color": "526174",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              892,
+              373
+            ],
+            [
+              956,
+              373
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": true
+        },
+        {
+          "type": "text",
+          "text": "3",
+          "x": 996,
+          "y": 317,
+          "w": 130,
+          "h": 105,
+          "fontSize": 82,
+          "color": "2459A6",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "건",
+          "x": 1056,
+          "y": 364,
+          "w": 60,
+          "h": 45,
+          "fontSize": 28,
+          "color": "2459A6",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "기존",
+          "x": 704,
+          "y": 476,
+          "w": 65,
+          "h": 30,
+          "fontSize": 18,
+          "color": "526174",
+          "bold": false
+        },
+        {
+          "type": "rect",
+          "x": 780,
+          "y": 478,
+          "w": 440,
+          "h": 18,
+          "fill": "F0F3F7",
+          "stroke": "F0F3F7",
+          "strokeWidth": 0
+        },
+        {
+          "type": "rect",
+          "x": 780,
+          "y": 478,
+          "w": 440.0,
+          "h": 18,
+          "fill": "BCC8D8",
+          "stroke": "BCC8D8",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "text": "개선",
+          "x": 704,
+          "y": 529,
+          "w": 65,
+          "h": 30,
+          "fontSize": 18,
+          "color": "526174",
+          "bold": false
+        },
+        {
+          "type": "rect",
+          "x": 780,
+          "y": 531,
+          "w": 440,
+          "h": 18,
+          "fill": "F0F3F7",
+          "stroke": "F0F3F7",
+          "strokeWidth": 0
+        },
+        {
+          "type": "rect",
+          "x": 780,
+          "y": 531,
+          "w": 188.57142857142858,
+          "h": 18,
+          "fill": "2459A6",
+          "stroke": "2459A6",
+          "strokeWidth": 0
         },
         {
           "type": "rect",
           "x": 56,
-          "y": 493,
+          "y": 604,
           "w": 1168,
-          "h": 121,
+          "h": 42,
           "fill": "EEF3F9",
           "stroke": "EEF3F9",
           "strokeWidth": 0
         },
         {
           "type": "text",
-          "x": 78,
-          "y": 515,
-          "w": 128,
-          "h": 68,
-          "text": "담당자",
+          "text": "가상 연습 자료",
+          "x": 74,
+          "y": 614,
+          "w": 180,
+          "h": 25,
+          "fontSize": 17,
           "color": "2459A6",
-          "bold": true,
-          "align": "left",
-          "fontSize": 33
+          "bold": true
         },
         {
           "type": "text",
-          "x": 225,
-          "y": 517,
-          "w": 345,
-          "h": 35,
-          "text": "최종 검수 확정",
-          "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 23
-        },
-        {
-          "type": "text",
-          "x": 628,
-          "y": 513,
-          "w": 568,
-          "h": 37,
-          "text": "자동 환불은 수행하지 않음",
-          "color": "192A40",
-          "bold": true,
-          "align": "left",
-          "fontSize": 25
-        },
-        {
-          "type": "text",
-          "x": 628,
-          "y": 560,
-          "w": 568,
-          "h": 40,
-          "text": "판단과 최종 확인은 담당자의 업무",
+          "text": "표본이 작아 일반 성능으로 확대하지 않습니다.",
+          "x": 264,
+          "y": 612,
+          "w": 920,
+          "h": 30,
+          "fontSize": 20,
           "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 21
-        },
-        {
-          "type": "text",
-          "x": 68,
-          "y": 640,
-          "w": 1120,
-          "h": 22,
-          "text": "확인 범위: 가상 연습 자료, 실제 고객 및 운영 실적 아님",
-          "color": "526174",
-          "bold": false,
-          "align": "left",
-          "fontSize": 16
+          "bold": false
         }
       ]
     },
