@@ -43,3 +43,7 @@
 | [note-portfolio](https://file.miricanvas.com/template_json_thumb/2026/10/13/16/00/kmiqhe2mqxdny9z4/json_thumb.webp) | 큰 중심 제목과 작은 메타 정보 | 표지 제목과 보조 안내 크기 차이 |
 | [blue-ir](https://file.miricanvas.com/template_json_thumb/2026/10/08/01/10/kzsabiq2njcpmton/json_thumb.webp) | 큰 타이포와 제한된 색 강조 | 제목 한 부분과 핵심 영역만 강조 |
 | [gray-proposal](https://file.miricanvas.com/template_json_thumb/2026/10/13/14/50/kuwsk5g22zxhz5nw/json_thumb.webp) | 큰 질문과 우측 시각 요소 | 타이포 중심 표지; 일러스트 미사용 |
+
+## 본문 검토 추가
+
+표지 썸네일 검토와 별도로 [공식 본문 이미지 3개의 분석](body-layout-research.md)을 추가했습니다. 자료별로 적용할 원리와 적용하지 않을 부분을 구분합니다.
