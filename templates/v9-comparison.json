@@ -2,6 +2,11 @@
   "width": 1280,
   "height": 720,
   "font": "Pretendard",
+  "meta": {
+    "title": "Clean PPT 레이아웃 12종",
+    "author": "Clean PPT",
+    "subject": "가상 자료 기반 편집용 템플릿"
+  },
   "slides": [
     {
       "title": "기록 방식의 변화",

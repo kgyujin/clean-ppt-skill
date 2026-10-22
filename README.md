@@ -11,7 +11,7 @@
 
 </div>
 
-![파란 비즈니스 스타일 6장 미리보기](examples/business-blue/preview-v3.png)
+![파란 비즈니스 스타일 6장 미리보기](examples/business-blue/preview-v4.png)
 
 ## 어떤 스킬인가요?
 
@@ -30,17 +30,20 @@
 
 ## 결과 예시
 
-아래 파일은 이 스킬을 적용해 만든 예시입니다. 가상 연습 자료를 사용했으며 실제 운영 실적이 아닙니다. 이미지를 누르면 크게 볼 수 있습니다.
+아래 파일은 이 스킬을 적용해 만든 예시입니다. 가상 연습 자료를 사용했으며 실제 운영 실적이 아닙니다. 각 예제에서 PPTX와 PDF, 수정 가능한 원본을 함께 제공합니다.
 
-### V9 비교·결과 템플릿
+### 바로 골라 쓰는 템플릿 12종
 
-V9의 서체·색상·정렬 체계를 바탕으로 비교와 수치 자료에 맞게 구성했습니다. 비교 페이지는 기존과 개선 열의 강조를 구분하고, 수치 페이지는 큰 숫자와 비례 막대로 차이를 보여줍니다. 내용은 가상 업무 예제입니다.
+미리보기를 누르면 해당 장의 JSON 원본을 열 수 있습니다. 전체 PPTX에서는 글자와 도형을 직접 편집할 수 있습니다. 모든 유형을 한 발표에 넣기보다 내용에 맞는 구성을 골라 사용하세요.
 
-| 기존 방식과 개선 방향 | 결과와 확인 범위 |
-| --- | --- |
-| ![V9 비교 영역](examples/business-blue/slides/comparison-v3.png) | ![V9 결과 영역](examples/business-blue/slides/metrics-v3.png) |
+[전체 12장 PPTX](examples/layout-gallery/deck.pptx) · [전체 PDF](examples/layout-gallery/deck.pdf) · [유형별 사용 안내](templates/README.md)
 
-[비교 템플릿 JSON](templates/v9-comparison.json) · [결과 템플릿 JSON](templates/v9-results.json)
+| 레이아웃 | 레이아웃 | 레이아웃 |
+| --- | --- | --- |
+| **01 표지**<br>[![표지](examples/layout-gallery/slides/slide-01.png)](templates/v9-cover.json) | **02 개선 전후**<br>[![개선 전후](examples/layout-gallery/slides/slide-02.png)](templates/v9-comparison.json) | **03 업무 흐름**<br>[![업무 흐름](examples/layout-gallery/slides/slide-03.png)](templates/v9-process.json) |
+| **04 수치 비교**<br>[![수치 비교](examples/layout-gallery/slides/slide-04.png)](templates/v9-results.json) | **05 적용 범위**<br>[![적용 범위](examples/layout-gallery/slides/slide-05.png)](templates/v9-scope.json) | **06 다음 단계**<br>[![다음 단계](examples/layout-gallery/slides/slide-06.png)](templates/v9-next-step.json) |
+| **07 시험 일정**<br>[![시험 일정](examples/layout-gallery/slides/slide-07.png)](templates/v9-timeline.json) | **08 검토 항목**<br>[![검토 항목](examples/layout-gallery/slides/slide-08.png)](templates/v9-checklist.json) | **09 도입 판단**<br>[![도입 판단](examples/layout-gallery/slides/slide-09.png)](templates/v9-decision.json) |
+| **10 서비스 구조**<br>[![서비스 구조](examples/layout-gallery/slides/slide-10.png)](templates/v9-architecture.json) | **11 조건 분기**<br>[![조건 분기](examples/layout-gallery/slides/slide-11.png)](templates/v9-branch.json) | **12 코드 설명**<br>[![코드 설명](examples/layout-gallery/slides/slide-12.png)](templates/v9-code.json) |
 
 ### 기본형: 업무 개선 발표
 

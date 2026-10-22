@@ -9,119 +9,220 @@
   },
   "slides": [
     {
-      "title": "반품 검수 기록 자동화",
-      "section": "현장 업무 개선 · 가상 연습",
-      "notes": "약 30초. 종이 체크리스트를 작성한 뒤 엑셀로 다시 옮기는 과정에서 기록이 누락됩니다. 검수 현장에서 태블릿으로 기록을 마치는 개선안을 소개합니다. 이후 수치는 실제 운영 성과가 아닌 가상 연습 비교입니다.",
+      "title": "업무 개선 발표",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "현장의 문제부터 적용 범위까지",
       "elements": [
         {
           "type": "text",
-          "text": "현장에서 확인하고, 현장에서 기록합니다.",
           "x": 56,
-          "y": 174,
+          "y": 30,
           "w": 1100,
-          "h": 50,
-          "fontSize": 30,
-          "bold": false,
-          "color": "192A40"
-        },
-        {
-          "type": "rect",
-          "x": 56,
-          "y": 275,
-          "w": 550,
-          "h": 265,
-          "fill": "EEF3F9",
-          "stroke": "EEF3F9"
-        },
-        {
-          "type": "text",
-          "text": "종이 → 엑셀 재입력",
-          "x": 88,
-          "y": 310,
-          "w": 470,
-          "h": 55,
-          "fontSize": 36,
-          "bold": true,
-          "color": "192A40"
-        },
-        {
-          "type": "text",
-          "text": "검수와 기록이 나뉘면서\n입력 누락 발생",
-          "x": 88,
-          "y": 395,
-          "w": 460,
-          "h": 90,
-          "fontSize": 29,
-          "bold": false,
-          "color": "192A40"
-        },
-        {
-          "type": "rect",
-          "x": 680,
-          "y": 243,
-          "w": 544,
-          "h": 330,
-          "fill": "FFFFFF",
-          "stroke": "2459A6"
-        },
-        {
-          "type": "text",
-          "text": "태블릿 검수 기록",
-          "x": 716,
-          "y": 275,
-          "w": 470,
-          "h": 50,
-          "fontSize": 34,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
           "bold": true,
           "color": "2459A6"
         },
         {
           "type": "text",
-          "text": "상품 코드 조회",
-          "x": 716,
-          "y": 355,
-          "w": 440,
-          "h": 38,
-          "fontSize": 27,
-          "bold": false,
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "text": "업무 개선 발표",
+          "fontSize": 44,
+          "bold": true,
           "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "현장의 문제부터 적용 범위까지",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 210,
+          "w": 700,
+          "h": 150,
+          "text": "반품 검수\n기록 자동화",
+          "fontSize": 60,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 393,
+          "w": 650,
+          "h": 92,
+          "text": "종이에 적고 다시 옮기던 기록을\n검수 현장에서 마치는 개선안입니다.",
+          "fontSize": 26,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 577,
+          "w": 630,
+          "h": 40,
+          "text": "업무 개선 제안  /  발표 구성 예시",
+          "fontSize": 20,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "rect",
+          "x": 824,
+          "y": 205,
+          "w": 400,
+          "h": 404,
+          "fill": "F3F6FA",
+          "stroke": "F3F6FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 850,
+          "y": 237,
+          "w": 44,
+          "h": 36,
+          "text": "01",
+          "fontSize": 22,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 237,
+          "w": 288,
+          "h": 40,
+          "text": "기록 방식",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 282,
+          "w": 280,
+          "h": 45,
+          "text": "기존과 개선 비교",
+          "fontSize": 19,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "text",
+          "x": 850,
+          "y": 356,
+          "w": 44,
+          "h": 36,
+          "text": "02",
+          "fontSize": 22,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 356,
+          "w": 288,
+          "h": 40,
+          "text": "업무 흐름",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 401,
+          "w": 280,
+          "h": 45,
+          "text": "입력부터 최종 검수까지",
+          "fontSize": 19,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "text",
+          "x": 850,
+          "y": 475,
+          "w": 44,
+          "h": 36,
+          "text": "03",
+          "fontSize": 22,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 475,
+          "w": 288,
+          "h": 40,
+          "text": "적용 판단",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 910,
+          "y": 520,
+          "w": 280,
+          "h": 45,
+          "text": "연습 수치와 다음 시험",
+          "fontSize": 19,
+          "bold": false,
+          "color": "526174"
         },
         {
           "type": "line",
           "points": [
             [
-              718,
-              407
+              56,
+              668
             ],
             [
-              1185,
-              407
+              1224,
+              668
             ]
           ],
-          "endArrow": false,
-          "stroke": "2459A6",
+          "stroke": "CDD6E1",
           "strokeWidth": 2
         },
         {
           "type": "text",
-          "text": "상태 · 사진 · 저장",
-          "x": 716,
-          "y": 438,
-          "w": 450,
-          "h": 45,
-          "fontSize": 30,
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
           "bold": false,
-          "color": "192A40"
+          "color": "526174"
         },
         {
           "type": "text",
-          "text": "4분 발표  /  현장 운영 담당자",
-          "x": 56,
-          "y": 592,
-          "w": 950,
-          "h": 32,
-          "fontSize": 20,
-          "bold": false,
+          "x": 1140,
+          "y": 680,
+          "w": 84,
+          "h": 22,
+          "text": "01 / 06",
+          "fontSize": 14,
           "color": "526174"
         }
       ]
@@ -557,229 +658,336 @@
     },
     {
       "title": "현장 업무 흐름",
-      "section": "02 · 태블릿 사용",
-      "notes": "약 45초. 왼쪽부터 상품 코드를 조회하고 상태를 체크한 뒤 사진을 첨부해 기록을 저장합니다. 이 네 단계가 개선안입니다. 저장과 최종 확정은 구분하며 담당자가 최종 검수를 확정합니다. 자동 환불은 수행하지 않습니다.",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "태블릿 입력은 기록을 돕고, 최종 판단은 담당자가 맡습니다.",
       "elements": [
         {
           "type": "text",
-          "text": "상품 확인부터 기록 저장까지 한 기기에서 진행",
           "x": 56,
-          "y": 159,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
           "w": 1168,
-          "h": 44,
-          "fontSize": 27,
+          "h": 64,
+          "text": "현장 업무 흐름",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "태블릿 입력은 기록을 돕고, 최종 판단은 담당자가 맡습니다.",
+          "fontSize": 21,
           "bold": false,
           "color": "526174"
         },
         {
           "type": "rect",
+          "x": 56.0,
+          "y": 242,
+          "w": 262.0,
+          "h": 62,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 76.0,
+          "y": 256,
+          "w": 222.0,
+          "h": 40,
+          "text": "01  제품 확인",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56.0,
+          "y": 337,
+          "w": 262.0,
+          "h": 150,
+          "text": "제품 코드를\n먼저 확인합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56.0,
+              507
+            ],
+            [
+              318.0,
+              507
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              324.0,
+              273
+            ],
+            [
+              351.0,
+              273
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "rect",
+          "x": 358.0,
+          "y": 242,
+          "w": 262.0,
+          "h": 62,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 378.0,
+          "y": 256,
+          "w": 222.0,
+          "h": 40,
+          "text": "02  상태 입력",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 358.0,
+          "y": 337,
+          "w": 262.0,
+          "h": 150,
+          "text": "검수 상태를\n선택합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              358.0,
+              507
+            ],
+            [
+              620.0,
+              507
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              626.0,
+              273
+            ],
+            [
+              653.0,
+              273
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "rect",
+          "x": 660.0,
+          "y": 242,
+          "w": 262.0,
+          "h": 62,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 680.0,
+          "y": 256,
+          "w": 222.0,
+          "h": 40,
+          "text": "03  사진 첨부",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 660.0,
+          "y": 337,
+          "w": 262.0,
+          "h": 150,
+          "text": "제품 상태를\n사진으로 남깁니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              660.0,
+              507
+            ],
+            [
+              922.0,
+              507
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              928.0,
+              273
+            ],
+            [
+              955.0,
+              273
+            ]
+          ],
+          "stroke": "2459A6",
+          "strokeWidth": 2,
+          "endArrow": "triangle"
+        },
+        {
+          "type": "rect",
+          "x": 962.0,
+          "y": 242,
+          "w": 262.0,
+          "h": 62,
+          "fill": "2459A6",
+          "stroke": "2459A6",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 982.0,
+          "y": 256,
+          "w": 222.0,
+          "h": 40,
+          "text": "04  기록 저장",
+          "fontSize": 25,
+          "bold": true,
+          "color": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "x": 962.0,
+          "y": 337,
+          "w": 262.0,
+          "h": 150,
+          "text": "입력 내용을\n저장합니다.",
+          "fontSize": 25,
+          "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              962.0,
+              507
+            ],
+            [
+              1224.0,
+              507
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
           "x": 56,
-          "y": 270,
-          "w": 244,
-          "h": 155,
-          "fill": "EEF3F9",
-          "stroke": "EEF3F9"
-        },
-        {
-          "type": "text",
-          "text": "01",
-          "x": 78,
-          "y": 288,
-          "w": 200,
-          "h": 38,
-          "fontSize": 22,
+          "y": 553,
+          "w": 190,
+          "h": 36,
+          "text": "확인할 경계",
+          "fontSize": 21,
           "bold": true,
           "color": "2459A6"
         },
         {
           "type": "text",
-          "text": "상품 코드 조회",
-          "x": 78,
-          "y": 348,
-          "w": 200,
-          "h": 48,
-          "fontSize": 29,
-          "bold": true,
+          "x": 260,
+          "y": 548,
+          "w": 960,
+          "h": 75,
+          "text": "담당자가 최종 검수합니다. 환불은 자동으로 처리하지 않습니다.",
+          "fontSize": 24,
+          "bold": false,
           "color": "192A40"
-        },
-        {
-          "type": "rect",
-          "x": 364,
-          "y": 270,
-          "w": 244,
-          "h": 155,
-          "fill": "EEF3F9",
-          "stroke": "EEF3F9"
-        },
-        {
-          "type": "text",
-          "text": "02",
-          "x": 386,
-          "y": 288,
-          "w": 200,
-          "h": 38,
-          "fontSize": 22,
-          "bold": true,
-          "color": "2459A6"
-        },
-        {
-          "type": "text",
-          "text": "상태 체크",
-          "x": 386,
-          "y": 348,
-          "w": 200,
-          "h": 48,
-          "fontSize": 29,
-          "bold": true,
-          "color": "192A40"
-        },
-        {
-          "type": "rect",
-          "x": 672,
-          "y": 270,
-          "w": 244,
-          "h": 155,
-          "fill": "EEF3F9",
-          "stroke": "EEF3F9"
-        },
-        {
-          "type": "text",
-          "text": "03",
-          "x": 694,
-          "y": 288,
-          "w": 200,
-          "h": 38,
-          "fontSize": 22,
-          "bold": true,
-          "color": "2459A6"
-        },
-        {
-          "type": "text",
-          "text": "사진 첨부",
-          "x": 694,
-          "y": 348,
-          "w": 200,
-          "h": 48,
-          "fontSize": 29,
-          "bold": true,
-          "color": "192A40"
-        },
-        {
-          "type": "rect",
-          "x": 980,
-          "y": 270,
-          "w": 244,
-          "h": 155,
-          "fill": "EEF3F9",
-          "stroke": "EEF3F9"
-        },
-        {
-          "type": "text",
-          "text": "04",
-          "x": 1002,
-          "y": 288,
-          "w": 200,
-          "h": 38,
-          "fontSize": 22,
-          "bold": true,
-          "color": "2459A6"
-        },
-        {
-          "type": "text",
-          "text": "기록 저장",
-          "x": 1002,
-          "y": 348,
-          "w": 200,
-          "h": 48,
-          "fontSize": 29,
-          "bold": true,
-          "color": "192A40"
-        },
-        {
-          "type": "line",
-          "points": [
-            [
-              308,
-              347
-            ],
-            [
-              350,
-              347
-            ]
-          ],
-          "endArrow": true,
-          "stroke": "2459A6",
-          "strokeWidth": 2
-        },
-        {
-          "type": "line",
-          "points": [
-            [
-              616,
-              347
-            ],
-            [
-              658,
-              347
-            ]
-          ],
-          "endArrow": true,
-          "stroke": "2459A6",
-          "strokeWidth": 2
-        },
-        {
-          "type": "line",
-          "points": [
-            [
-              924,
-              347
-            ],
-            [
-              966,
-              347
-            ]
-          ],
-          "endArrow": true,
-          "stroke": "2459A6",
-          "strokeWidth": 2
         },
         {
           "type": "line",
           "points": [
             [
               56,
-              493
+              668
             ],
             [
               1224,
-              493
+              668
             ]
           ],
-          "endArrow": false,
-          "stroke": "2459A6",
+          "stroke": "CDD6E1",
           "strokeWidth": 2
         },
         {
           "type": "text",
-          "text": "담당자 최종 검수 확정",
           "x": 56,
-          "y": 530,
-          "w": 710,
-          "h": 45,
-          "fontSize": 30,
-          "bold": true,
-          "color": "192A40"
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
+          "bold": false,
+          "color": "526174"
         },
         {
           "type": "text",
-          "text": "자동 환불 없음",
-          "x": 900,
-          "y": 533,
-          "w": 324,
-          "h": 42,
-          "fontSize": 27,
-          "bold": true,
-          "color": "2459A6"
+          "x": 1140,
+          "y": 680,
+          "w": 84,
+          "h": 22,
+          "text": "03 / 06",
+          "fontSize": 14,
+          "color": "526174"
         }
       ]
     },
@@ -1221,186 +1429,358 @@
     },
     {
       "title": "적용 범위와 한계",
-      "section": "04 · 판단 기준",
-      "notes": "약 40초. 세 가지 경계를 함께 기억해야 합니다. 수치는 가상 연습 자료이고, 표본은 각각 20건입니다. 이 개선은 기록 자동화이며 최종 검수 확정은 담당자에게 있습니다. 자동 환불 기능으로 해석하지 않습니다.",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "자동화할 기록과 사람이 판단할 업무를 구분합니다.",
       "elements": [
         {
           "type": "text",
-          "text": "좋아진 기록 방식과 검증해야 할 성능을 구분",
           "x": 56,
-          "y": 159,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
           "w": 1168,
-          "h": 44,
+          "h": 64,
+          "text": "적용 범위와 한계",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "자동화할 기록과 사람이 판단할 업무를 구분합니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "rect",
+          "x": 56,
+          "y": 232,
+          "w": 300,
+          "h": 364,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
+        },
+        {
+          "type": "text",
+          "x": 82,
+          "y": 261,
+          "w": 250,
+          "h": 40,
+          "text": "적용 원칙",
           "fontSize": 27,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 82,
+          "y": 325,
+          "w": 248,
+          "h": 160,
+          "text": "기록은 현장에서\n판단은 담당자가",
+          "fontSize": 32,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 398,
+          "y": 239,
+          "w": 190,
+          "h": 40,
+          "text": "기록",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 239,
+          "w": 580,
+          "h": 45,
+          "text": "태블릿으로 입력",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 288,
+          "w": 580,
+          "h": 50,
+          "text": "제품 코드, 상태와 사진을 함께 저장합니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              398,
+              340
+            ],
+            [
+              1224,
+              340
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 398,
+          "y": 361,
+          "w": 190,
+          "h": 40,
+          "text": "책임",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 361,
+          "w": 580,
+          "h": 45,
+          "text": "최종 검수는 사람이 수행",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 410,
+          "w": 580,
+          "h": 50,
+          "text": "자동 환불 기능은 포함하지 않습니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              398,
+              462
+            ],
+            [
+              1224,
+              462
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 398,
+          "y": 483,
+          "w": 190,
+          "h": 40,
+          "text": "해석",
+          "fontSize": 25,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 483,
+          "w": 580,
+          "h": 45,
+          "text": "연습 결과의 적용 범위",
+          "fontSize": 27,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 620,
+          "y": 532,
+          "w": 580,
+          "h": 50,
+          "text": "작은 표본의 수치를 전체 성과로 일반화하지 않습니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              398,
+              584
+            ],
+            [
+              1224,
+              584
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
           "bold": false,
           "color": "526174"
         },
         {
           "type": "text",
-          "text": "자료 성격",
-          "x": 56,
-          "y": 250,
-          "w": 280,
-          "h": 50,
-          "fontSize": 29,
-          "bold": true,
-          "color": "2459A6"
-        },
-        {
-          "type": "text",
-          "text": "가상 연습 자료\n실제 고객·운영 실적이 아님",
-          "x": 385,
-          "y": 245,
-          "w": 820,
-          "h": 85,
-          "fontSize": 28,
-          "bold": false,
-          "color": "192A40"
-        },
-        {
-          "type": "line",
-          "points": [
-            [
-              56,
-              356
-            ],
-            [
-              1224,
-              356
-            ]
-          ],
-          "endArrow": false,
-          "stroke": "2459A6",
-          "strokeWidth": 2
-        },
-        {
-          "type": "text",
-          "text": "검증 범위",
-          "x": 56,
-          "y": 384,
-          "w": 280,
-          "h": 50,
-          "fontSize": 29,
-          "bold": true,
-          "color": "2459A6"
-        },
-        {
-          "type": "text",
-          "text": "기존·개선 각 20건\n일반 성능으로 확대하지 않음",
-          "x": 385,
-          "y": 379,
-          "w": 820,
-          "h": 85,
-          "fontSize": 28,
-          "bold": false,
-          "color": "192A40"
-        },
-        {
-          "type": "line",
-          "points": [
-            [
-              56,
-              490
-            ],
-            [
-              1224,
-              490
-            ]
-          ],
-          "endArrow": false,
-          "stroke": "2459A6",
-          "strokeWidth": 2
-        },
-        {
-          "type": "text",
-          "text": "업무 책임",
-          "x": 56,
-          "y": 518,
-          "w": 280,
-          "h": 50,
-          "fontSize": 29,
-          "bold": true,
-          "color": "2459A6"
-        },
-        {
-          "type": "text",
-          "text": "담당자가 최종 검수 확정\n자동 환불은 수행하지 않음",
-          "x": 385,
-          "y": 513,
-          "w": 820,
-          "h": 85,
-          "fontSize": 28,
-          "bold": false,
-          "color": "192A40"
+          "x": 1140,
+          "y": 680,
+          "w": 84,
+          "h": 22,
+          "text": "05 / 06",
+          "fontSize": 14,
+          "color": "526174"
         }
       ]
     },
     {
       "title": "다음 단계",
-      "section": "05 · 시험 운영",
-      "notes": "약 35초. 다음 단계는 다른 품목으로 1주간 시험 운영하는 것입니다. 현재 연습에서 본 평균 시간과 입력 누락을 다음 시험에서도 확인하는 것을 제안합니다. 최종 검수 확정은 계속 담당자가 수행합니다. 이를 통해 품목이 달라도 기록 방식이 도움이 되는지 살펴보겠습니다.",
+      "section": "발표 레이아웃 예제",
+      "frame": false,
+      "notes": "다른 제품군에서도 같은 기록 방식이 맞는지 확인합니다.",
       "elements": [
         {
           "type": "text",
-          "text": "다른 품목으로 1주간 시험 운영",
           "x": 56,
-          "y": 178,
-          "w": 1168,
-          "h": 65,
-          "fontSize": 39,
+          "y": 30,
+          "w": 1100,
+          "h": 24,
+          "text": "CLEAN PPT  /  BUSINESS PRESENTATION",
+          "fontSize": 16,
           "bold": true,
           "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 79,
+          "w": 1168,
+          "h": 64,
+          "text": "다음 단계",
+          "fontSize": 44,
+          "bold": true,
+          "color": "192A40"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 157,
+          "w": 1168,
+          "h": 40,
+          "text": "다른 제품군에서도 같은 기록 방식이 맞는지 확인합니다.",
+          "fontSize": 21,
+          "bold": false,
+          "color": "526174"
         },
         {
           "type": "rect",
           "x": 56,
-          "y": 289,
-          "w": 355,
-          "h": 290,
-          "fill": "EEF3F9",
-          "stroke": "EEF3F9"
+          "y": 235,
+          "w": 360,
+          "h": 363,
+          "fill": "F0F4FA",
+          "stroke": "F0F4FA",
+          "strokeWidth": 0
         },
         {
           "type": "text",
-          "text": "1주",
-          "x": 85,
-          "y": 315,
-          "w": 290,
-          "h": 100,
-          "fontSize": 76,
+          "x": 88,
+          "y": 263,
+          "w": 280,
+          "h": 40,
+          "text": "추가 시험 기간",
+          "fontSize": 24,
           "bold": true,
           "color": "2459A6"
         },
         {
           "type": "text",
-          "text": "시험 운영 기간",
-          "x": 85,
-          "y": 449,
-          "w": 290,
-          "h": 45,
-          "fontSize": 28,
+          "x": 88,
+          "y": 330,
+          "w": 250,
+          "h": 110,
+          "text": "1주",
+          "fontSize": 82,
+          "bold": true,
+          "color": "2459A6"
+        },
+        {
+          "type": "text",
+          "x": 88,
+          "y": 472,
+          "w": 275,
+          "h": 85,
+          "text": "다른 제품군에\n적용해 봅니다.",
+          "fontSize": 27,
           "bold": false,
           "color": "192A40"
         },
         {
           "type": "text",
-          "text": "운영 범위",
-          "x": 476,
-          "y": 298,
-          "w": 730,
-          "h": 45,
-          "fontSize": 28,
+          "x": 470,
+          "y": 239,
+          "w": 720,
+          "h": 42,
+          "text": "01  같은 기준으로 기록",
+          "fontSize": 30,
           "bold": true,
           "color": "192A40"
         },
         {
           "type": "text",
-          "text": "다른 품목으로 적용",
-          "x": 476,
-          "y": 344,
-          "w": 730,
-          "h": 48,
-          "fontSize": 31,
+          "x": 470,
+          "y": 304,
+          "w": 725,
+          "h": 83,
+          "text": "검수 시간과 입력 누락을\n같은 방식으로 확인합니다.",
+          "fontSize": 27,
           "bold": false,
           "color": "192A40"
         },
@@ -1408,49 +1788,73 @@
           "type": "line",
           "points": [
             [
-              476,
-              417
+              470,
+              420
             ],
             [
               1224,
-              417
+              420
             ]
           ],
-          "endArrow": false,
-          "stroke": "2459A6",
+          "stroke": "CDD6E1",
           "strokeWidth": 2
         },
         {
           "type": "text",
-          "text": "확인 제안",
-          "x": 476,
-          "y": 445,
-          "w": 730,
-          "h": 44,
-          "fontSize": 26,
+          "x": 470,
+          "y": 454,
+          "w": 720,
+          "h": 42,
+          "text": "02  결과를 보고 적용 판단",
+          "fontSize": 30,
           "bold": true,
-          "color": "2459A6"
-        },
-        {
-          "type": "text",
-          "text": "건당 평균 시간 · 입력 누락",
-          "x": 476,
-          "y": 494,
-          "w": 730,
-          "h": 48,
-          "fontSize": 29,
-          "bold": false,
           "color": "192A40"
         },
         {
           "type": "text",
-          "text": "최종 검수 확정: 담당자",
-          "x": 56,
-          "y": 608,
-          "w": 1168,
-          "h": 36,
-          "fontSize": 23,
+          "x": 470,
+          "y": 518,
+          "w": 725,
+          "h": 85,
+          "text": "담당자의 검수 부담과\n제품별 입력 차이를 함께 살펴봅니다.",
+          "fontSize": 27,
           "bold": false,
+          "color": "192A40"
+        },
+        {
+          "type": "line",
+          "points": [
+            [
+              56,
+              668
+            ],
+            [
+              1224,
+              668
+            ]
+          ],
+          "stroke": "CDD6E1",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 682,
+          "w": 1100,
+          "h": 20,
+          "text": "Clean PPT  |  가상 예제",
+          "fontSize": 12,
+          "bold": false,
+          "color": "526174"
+        },
+        {
+          "type": "text",
+          "x": 1140,
+          "y": 680,
+          "w": 84,
+          "h": 22,
+          "text": "06 / 06",
+          "fontSize": 14,
           "color": "526174"
         }
       ]
